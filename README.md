@@ -1,33 +1,51 @@
-# 🗄️ SQL Data Analysis Project
+#  SQL Data Analysis Project
 
-A beginner-friendly SQL data analysis project focused on extracting business insights using SQL queries.
+A portfolio-ready SQL data analysis project focused on extracting meaningful business insights from sales data using MySQL.
 
-## Project Objective
+##  Project Objective
 
-The objective of this project is to analyze sales data using SQL and answer important business questions.
+The objective of this project is to analyze sales data using SQL and answer important business questions related to products, regions, customers, revenue, and sales performance.
 
-##  Key Questions
+##  Dataset
 
-- Which products generate the highest revenue?
-- Which region performs best?
-- Which customers purchase the most?
-- What are the monthly sales trends?
-- What are the top-selling products?
-- How can SQL help in business decision-making?
+The project uses a sample sales dataset containing:
 
-##  Technologies Used
+- Order ID
+- Product
+- Category
+- Region
+- Quantity
+- Unit Price
+- Sales
 
-- SQL
-- MySQL
-- Database Management
-- Data Analysis
-- Aggregations
-- Joins
+A customer table is also included for SQL JOIN analysis.
+
+##  Analysis Performed
+
+- Total sales analysis
+- Category-wise sales
+- Region-wise sales
+- Product performance
+- Average order value
+- High-value orders
+- Sales classification
+- Customer analysis
+- INNER JOIN
+- LEFT JOIN
+- CTE
 - Subqueries
-- CTEs
-- Window Functions
+- RANK()
+- DENSE_RANK()
+- ROW_NUMBER()
+- LAG()
+- LEAD()
+- COUNT()
+- DISTINCT analysis
+- Product performance summary
+- Regional performance summary
+- Category performance summary
 
-##  SQL Concepts Covered
+##  SQL Concepts Used
 
 - SELECT
 - WHERE
@@ -36,17 +54,45 @@ The objective of this project is to analyze sales data using SQL and answer impo
 - HAVING
 - Aggregate Functions
 - CASE WHEN
-- JOINs
+- INNER JOIN
+- LEFT JOIN
 - Subqueries
 - Common Table Expressions (CTEs)
 - Window Functions
 
-##  Business Insights
+##  Business Questions
 
-The project will use SQL queries to identify sales trends, top-performing products, customer behavior, and regional performance.
+- Which products generate the highest revenue?
+- Which region performs best?
+- Which products have the highest sales?
+- What is the average order value?
+- Which orders are high-value?
+- How do different product categories perform?
+- How can SQL support data-driven business decisions?
 
-##  Author
+##  Key Business Insights
 
-**Mukesh Singh**
+The analysis focuses on identifying top-performing products, regional sales performance, revenue patterns, high-value orders, and product/category-level performance.
 
+##  Advanced SQL Analysis
+
+This project demonstrates practical use of:
+
+- CTEs for readable multi-step analysis
+- Subqueries for comparative analysis
+- Window functions for ranking
+- LAG() and LEAD() for row-to-row comparisons
+- JOINs for combining related tables
+
+##  Project Structure
+
+```text
+sql-data-analysis
+│
+├── README.md
+│
+└── sql_queries.sql
+
+ Author
+Mukesh Singh
 Aspiring Data Scientist | Python | SQL | Machine Learning | Data Analytics
