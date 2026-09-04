@@ -32,3 +32,7 @@ VALUES
 (1008, 'Monitor', 'Electronics', 'West', 3, 15000, 45000),
 (1009, 'Keyboard', 'Accessories', 'North', 6, 1500, 9000),
 (1010, 'Laptop', 'Electronics', 'South', 2, 60000, 120000);
+-- 1. View All Sales Data
+
+SELECT *
+FROM sales;
