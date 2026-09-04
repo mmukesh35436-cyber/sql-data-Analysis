@@ -93,6 +93,14 @@ sql-data-analysis
 │
 └── sql_queries.sql
 
+##  Project Files
+
+- [SQL Queries](sql_queries.sql) - Complete SQL analysis queries
+- [SQL Basics](sql_basics.sql) - Basic SQL queries and aggregations
+- [Advanced SQL](advanced_sql.sql) - CTEs, subqueries, ranking, LAG and LEAD
+- [Customer Analysis](customer_analysis.sql) - Customer and regional analysis
+- [Business Insights](business_insights.md) - Key findings and recommendations
+
  Author
 Mukesh Singh
 Aspiring Data Scientist | Python | SQL | Machine Learning | Data Analytics
